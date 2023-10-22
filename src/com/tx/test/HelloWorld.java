@@ -18,6 +18,7 @@ public class HelloWorld {
         test();
 
         System.out.println("111111");
+        System.out.println("hot-fix");
     }
 
     public void method() {
