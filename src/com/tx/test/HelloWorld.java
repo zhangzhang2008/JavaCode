@@ -20,6 +20,7 @@ public class HelloWorld {
         System.out.println("111111");
         System.out.println("hot-fix");
         System.out.println("master test!");
+        System.out.println("hot-fix test2!");
     }
 
     public void method() {
