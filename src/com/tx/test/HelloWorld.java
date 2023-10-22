@@ -16,6 +16,8 @@ public class HelloWorld {
 
         /*List list = new ArrayList<>();*/
         test();
+
+        System.out.println("111111");
     }
 
     public void method() {
