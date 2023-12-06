@@ -1,4 +1,4 @@
-package com.tx.maven;
+package com.tx.maven.maven;
 
 public class HelloMaven {
 

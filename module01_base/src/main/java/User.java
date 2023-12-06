@@ -1,6 +1,4 @@
-package com.it.test;
-
-public class Person {
+public class User {
 
     private int id;
     private String name;

@@ -1,12 +1,8 @@
-package com.tx.test;
-
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 文档注释
- */
 public class HelloWorld {
+
     /*
     多行注释
      */
@@ -24,6 +20,7 @@ public class HelloWorld {
         System.out.println("hot-fix test2!");
         System.out.println("-------------------");
         System.out.println("-------------------");
+        System.out.println("123");
     }
 
     public void method() {
@@ -50,13 +47,21 @@ public class HelloWorld {
 
         System.out.printf("test", ss);
         System.out.println(ss);
-        method3();
 
         Map map = new HashMap();
 
+        test2();
     }
 
-    private static void method3() {
+    private static void test2() {
+        String test = "zhangsan";
+        System.out.println(test);
+        System.out.println(test);
+        System.out.println(test);
+        System.out.println(test);
+    }
+
+    private static void method3(int a, int b) {
         String strs = new String();
         new String("hello");
     }
