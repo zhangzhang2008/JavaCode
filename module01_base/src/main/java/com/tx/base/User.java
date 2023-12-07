@@ -1,3 +1,5 @@
+package com.tx.base;
+
 public class User {
 
     private int id;

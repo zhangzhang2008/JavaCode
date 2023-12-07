@@ -1,3 +1,5 @@
+package com.tx.base;
+
 import java.util.HashMap;
 import java.util.Map;
 
