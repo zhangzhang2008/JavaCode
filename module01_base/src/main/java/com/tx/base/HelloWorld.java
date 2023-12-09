@@ -55,6 +55,7 @@ public class HelloWorld {
         String test = "hangman";
         System.out.println(test);
         System.out.println(test);
+        System.out.println("新增");
     }
 
     private static void method3(int a, int b) {
