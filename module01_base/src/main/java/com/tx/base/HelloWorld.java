@@ -54,6 +54,7 @@ public class HelloWorld {
     private static void test2() {
         String test = "hangman";
         System.out.println(test);
+        System.out.println(test);
     }
 
     private static void method3(int a, int b) {
