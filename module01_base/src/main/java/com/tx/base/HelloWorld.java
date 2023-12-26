@@ -19,7 +19,13 @@ public class HelloWorld {
         list.add(1);
         list.add(2);
         list.add(3);
+        // 循环遍历list,并打印
+         for (int i = 0; i < list.size(); i++) {
+         }
+
+
         list.forEach(a -> System.out.println("==>" + a));
+        list.forEach(System.out::println);
 
         test();
 
@@ -32,6 +38,7 @@ public class HelloWorld {
         System.out.println("-------------------");
         System.out.println("123");
     }
+
     public static void test() {
 
         String str = "test";
@@ -56,10 +63,12 @@ public class HelloWorld {
         System.out.println(test);
         System.out.println(test);
         System.out.println("新增");
+        System.out.println("新增");
     }
 
     private static void method3(int a, int b) {
         String hello = "hello";
         System.out.println(hello);
     }
+
 }
