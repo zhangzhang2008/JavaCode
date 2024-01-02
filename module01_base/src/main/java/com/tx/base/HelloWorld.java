@@ -64,7 +64,6 @@ public class HelloWorld {
         System.out.println(test);
         System.out.println("新增");
         System.out.println("新增");
-        System.out.println("undo commit");
     }
 
     private static void method3(int a, int b) {
